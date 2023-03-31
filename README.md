@@ -8,7 +8,7 @@ This project is designed to track your face, and I've separated it into individu
 To use this project, you'll need to have OpenCV or CV2 installed. I also used enespolat25's repository for the XML file, which is included in this project.
 
 # Programs used:
-I created this project using PyCharm, which is a popular and powerful integrated development environment.
+I created this project using PyCharm
 
 # What's broken:
 Please note that the "pseyecam" element is a separate project that I might move to a different repository. For now, please disregard it.
