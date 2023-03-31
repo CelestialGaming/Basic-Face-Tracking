@@ -12,3 +12,7 @@ I created this project using PyCharm
 
 # What's broken:
 Please note that the "pseyecam" element is a separate project that I might move to a different repository. For now, please disregard it.
+
+Liscense:
+
+Choose Creative Commons Zero v1.0 Universal because I don't mind if people use it for anything, I just want some credit back :)
