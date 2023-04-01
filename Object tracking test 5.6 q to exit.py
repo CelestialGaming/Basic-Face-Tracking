@@ -18,9 +18,15 @@ font_size = 0.7
 
 # Toggle visibility of coordinate plane with 'c' key
 show_plane = True
+
 while True:
     # Capture video frame by frame
     ret, frame = cap.read()
+
+    # Check if frame is empty
+    if not ret:
+        print("Error: Failed to capture frame from camera. Exiting...")
+        break
 
     # Convert to grayscale
     gray = cv2.cvtColor(frame, cv2.COLOR_BGR2GRAY)
@@ -64,25 +70,21 @@ while True:
                 print("Location: Bottom Left")
 
     # Show the frame
-
     cv2.namedWindow('Video', cv2.WINDOW_NORMAL)
-
     cv2.imshow('Video', frame)
 
     # Exit application when 'q' is pressed
-
     key = cv2.waitKey(1)
-
     if key & 0xFF == ord('q'):
         break
 
-    # Toggle visibility of coordinate plane with 'c' key
+ # Toggle visibility of coordinate plane with 'c' key
 
     if key & 0xFF == ord('c'):
         show_plane = not show_plane
 
-    # Release the capture and close all windows
+# Release the capture and close all windows
 
-    cap.release()
+cap.release()
 
-    cv2.destroyAllWindows()
+cv2.destroyAllWindows()
