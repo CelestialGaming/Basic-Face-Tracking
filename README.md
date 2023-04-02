@@ -16,3 +16,6 @@ Please note that the "pseyecam" element is a separate project that I might move 
 Liscense:
 
 Choose Creative Commons Zero v1.0 Universal because I don't mind if people use it for anything, I just want some credit back :)
+
+# Author's notes
+Please note that this code may not be fully optimized or streamlined, as it was developed by an amateur programmer with a passion for coding. As such, there may be more efficient ways to achieve the same results. However, this project is intended to serve as a learning opportunity and a demonstration of basic quadratic equation concepts.
